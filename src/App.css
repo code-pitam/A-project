@@ -42,5 +42,5 @@
 } */
 
 .container{
-  max-width: 1502.99px;
+  max-width: 1502.99px !important;
 }
