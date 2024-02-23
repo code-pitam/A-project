@@ -15,20 +15,20 @@ function Industry() {
             </p>
             <p className="in-upper-right-small">
               Blue Dot Global is making a strong mark in the distribution of
-              digital and <br /> electronic products, technological
-              transformations, and system Integrations <br /> which started from
-              the UAE and now expanded to supplying our product <br /> ranges in
+              digital and electronic products, technological
+              transformations, and system Integrations which started from
+              the UAE and now expanded to supplying our product ranges in
               the Middle East, Africa, Asia, and Europe. <br /> <br />
               <br />
               We simplify and streamline your technology procurement processes.
-              We’ve <br /> made buying the tech you need easier than ever. Your
-              ingenuity is what <br /> turns imagination into innovation. We
-              give you access to the components <br /> you need to breathe life
+              We’ve made buying the tech you need easier than ever. Your
+              ingenuity is what turns imagination into innovation. We
+              give you access to the components you need to breathe life
               into your vision. <br />
               <br />
               <br />
               We work with you with a deep-level understanding of your business
-              needs, <br /> extensive technical knowledge, and highly capable
+              needs, extensive technical knowledge, and highly capable
               delivery teams.
             </p>
           </div>
@@ -39,9 +39,9 @@ function Industry() {
               Industry <br /> expertise
             </p>
             <p className="in-lower-left-small">
-              We are one the leading business and technology <br />
-              consultancy and implementation experts <br />
-              building bridges between its clients' business <br />
+              We are one the leading business and technology 
+              consultancy and implementation experts 
+              building bridges between its clients' business
               goals and ecological capabilities
             </p>
           </div>

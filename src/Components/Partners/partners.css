@@ -1,0 +1,32 @@
+.partners {
+  width: 100%;
+  background-color: #0c1f50;
+  display: flex;
+  justify-content: center;
+}
+.partners-section {
+  margin-top: 18px;
+  /* width: 100%; */
+  max-width: 1500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.partners-section .partners-heading {
+  font-size: 37px;
+  font-weight: 600;
+}
+.partners-section .partners-icon {
+  padding: 30px;
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+  background-color: #091637;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 2rem;
+}
+.partners-section .partners-icon img {
+  object-fit: contain;
+}

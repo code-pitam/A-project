@@ -30,10 +30,10 @@ function Hero() {
           <div className="right-section">
             <div className="quote-sec">
               <p>
-                A leading technology and electronics goods merchant <br /> and
-                wholesale distributor providing the latest solutions <br /> and
-                services with exceptional partner experience to <br />{" "}
-                resellers, retailers, corporate businesses, and <br />{" "}
+                A leading technology and electronics goods merchant and
+                wholesale distributor providing the latest solutions and
+                services with exceptional partner experience to {" "}
+                resellers, retailers, corporate businesses, and {" "}
                 government entities
               </p>
 

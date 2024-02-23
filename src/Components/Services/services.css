@@ -8,7 +8,7 @@
 
     box-sizing: border-box;
     padding: 71px;
-  height: 914px;
+  min-height: 914px;
   width: 100%;
   background-image: url('../../assets/back.png');
   background-color: white;
@@ -74,6 +74,7 @@
     font-size: 18px;
 }
 .upper-section .inner-right{
+    margin: 20px;
     color: #5596CC;
     font-size: 20px;
 display: flex;
