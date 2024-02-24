@@ -30,3 +30,12 @@
 .partners-section .partners-icon img {
   object-fit: contain;
 }
+
+
+
+@media only screen and (max-width:1024px) {
+ .partners .partners-icon{
+  flex-wrap: wrap;
+  width: 90%;
+ }
+}

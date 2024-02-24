@@ -163,3 +163,25 @@ margin-right: 40px;
 
 }
 
+@media only screen and (max-width: 950px) {
+ .service-section{
+    flex-direction: column;
+ }
+ .service-section .left-section, .right-section{
+    width: 100%;
+ }
+ .service-section .lower-section{
+    width: 100%;
+    padding: 0;
+    
+ }
+ .service-section .lower-section .lower-icon{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6px;
+
+ }
+}

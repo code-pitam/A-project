@@ -114,3 +114,21 @@
     margin-right: 5rem;
 
 }
+
+
+
+
+@media only screen and (max-width: 950px) {
+ 
+    .s-content{
+        flex-direction: column-reverse;
+    }
+    .s-content .slide-left{
+        max-width: 100%;
+        margin: 50px;
+        text-align: center;
+    }
+     .s-content .slide-image{
+        width: 80%;
+     }
+}

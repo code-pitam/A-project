@@ -63,3 +63,25 @@ width: 60%;
     padding-bottom: 30px;
 }
 }
+
+
+@media only screen and (max-width: 950px) {
+.careers-section{
+    flex-direction: column;
+}
+
+.careers-section .careers-left{
+    width: 100%;
+}
+.careers-section .careers-left img{
+    width: 100%;
+}
+.careers-section .careers-right{
+    margin: 0;
+
+
+    text-align: center;
+}
+
+
+}
