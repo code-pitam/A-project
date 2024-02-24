@@ -1,19 +1,15 @@
 import React from "react";
 import "../Hero/hero.css";
+import img1 from "../../assets/Group 10.png";
+import vid1 from "../../assets/Blue Dot Global (1).mp4";
 function Hero() {
 
 
   return (
     <div className="hero">
-      <video
-        src="src\assets\Video\Blue Dot Global (1).mp4"
-        autoPlay
-        muted
-        loop
-        className="hero-video"
-      ></video>
+      <video src={vid1} autoPlay muted loop className="hero-video"></video>
       <div className="container hero-section">
-        <img className="logo" src="src\assets\Group 10.png" alt="" srcset="" />
+        <img className="logo" src={img1} alt="" srcset="" />
 
         <div className="hero-inner">
           <div className="left-section">
@@ -77,11 +73,7 @@ function Hero() {
               <p>Facebook</p>
             </div>
             <div className="social">
-              <img
-                src="src\assets\XMLID_15_ (9).png"
-                alt=""
-                srcset=""
-              />
+              <img src="src\assets\XMLID_15_ (9).png" alt="" srcset="" />
               <p>Telegram</p>
             </div>
           </div>
