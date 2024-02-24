@@ -1,5 +1,6 @@
 import React from "react";
 import "../Footer/footer.css";
+import img1 from "../../assets/Picture47 1.png";
 
 function Footer() {
   return (
@@ -51,7 +52,7 @@ function Footer() {
             <div className="input-email">
               <input type="text" name="" id="" placeholder="Your Email" />
               <img
-                src="src\assets\Picture47 1.png"
+                src={img1}
                 alt=""
                 srcset=""
               />

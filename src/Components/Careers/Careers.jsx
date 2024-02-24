@@ -1,12 +1,13 @@
 import React from "react";
 import "../Careers/careers.css";
+import img1  from "../../assets/aaa 1 (1).png";
 
 function Careers() {
   return (
     <div className="careers">
       <div className="careers-section">
         <div className="careers-left">
-          <img src="src\assets\aaa 1 (1).png" alt="" srcset="" />
+          <img src={img1} alt="" srcset="" />
         </div>
         <div className="careers-right">
           <p className="c-right-heading">careers</p>
