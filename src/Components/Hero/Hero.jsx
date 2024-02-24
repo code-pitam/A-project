@@ -1,7 +1,7 @@
 import React from "react";
 import "../Hero/hero.css";
 import img1 from "../../assets/Group 10.png";
-import vid1 from "../../assets/Blue Dot Global (1).mp4";
+import vid1 from "../../assets/Video/Blue Dot Global (1).mp4";
 function Hero() {
 
 
