@@ -1,5 +1,22 @@
 import React from "react";
 import "../Services/services.css";
+import img1 from "../../assets/Picture3 1.png";
+
+import img2 from "../../assets/Picture4 1.png";
+import img3 from "../../assets/Picture5 1.png";
+import img4 from "../../assets/Picture6 1.png";
+import img5 from "../../assets/Picture7 1.png";
+import img6 from "../../assets/Picture8 1.png";
+import img7 from "../../assets/Picture9 1.png";
+import img8 from "../../assets/Picture10 1.png";
+import img9 from "../../assets/Picture11 1.png";
+import img10 from "../../assets/Picture12 1.png";
+import img11 from "../../assets/Picture14 1.png";
+import img12 from "../../assets/Picture15 1.png";
+import img13 from "../../assets/Picture16 1.png";
+import img14 from "../../assets/Picture17 1.png";
+import img15 from "../../assets/XMLID_15_.png";
+
 function Services() {
   return (
     <div className="service-main">
@@ -21,7 +38,7 @@ function Services() {
             <div className="inner-right">
               <div className="global">
                 <p>Global Coverage</p>
-                <img src="\src\assets\Picture3 1.png" alt="" />
+                <img src={img1} alt="" />
               </div>
               <div className="inter">
                 <p>International offices</p>
@@ -39,59 +56,59 @@ function Services() {
             </div>
             <div className="lower-icon">
               <div className="icon">
-                <img src="src\assets\Picture4 1.png" alt="" />
+                <img src={img2} alt="" />
                 <p>Laptops</p>
               </div>
               <div className="icon">
-                <img src="src\assets\Picture5 1.png" alt="" />
+                <img src={img3} alt="" />
                 <p>Desktops</p>
               </div>
               <div className="icon">
-                <img src="src\assets\Picture6 1.png" alt="" />
+                <img src={img4} alt="" />
                 <p>Servers</p>
               </div>
               <div className="icon">
-                <img src="src\assets\Picture7 1.png" alt="" />
+                <img src={img5} alt="" />
                 <p>Networking</p>
               </div>
               <div className="icon">
-                <img src="src\assets\Picture8 1.png" alt="" />
+                <img src={img6} alt="" />
                 <p>Components</p>
               </div>
               <div className="icon">
-                <img src="src\assets\Picture9 1.png" alt="" />
+                <img src={img7} alt="" />
                 <p>Audio Visual</p>
               </div>
               <div className="icon">
-                <img src="src\assets\Picture10 1.png" alt="" />
+                <img src={img8} alt="" />
                 <p>IT Accessories</p>
               </div>
               <div className="icon">
-                <img src="src\assets\Picture11 1.png" alt="" />
+                <img src={img9} alt="" />
                 <p>Security</p>
               </div>
               <div className="icon">
-                <img src="src\assets\Picture12 1.png" alt="" />
+                <img src={img10} alt="" />
                 <p>CCTV</p>
               </div>
               <div className="icon">
-                <img src="src\assets\Picture14 1.png" alt="" />
+                <img src={img11} alt="" />
                 <p>Storage</p>
               </div>
               <div className="icon">
-                <img src="src\assets\Picture15 1.png" alt="" />
+                <img src={img12} alt="" />
                 <p>Accessories</p>
               </div>
               <div className="icon">
-                <img src="src\assets\Picture16 1.png" alt="" />
+                <img src={img13} alt="" />
                 <p>Print Solutions</p>
               </div>
               <div className="icon">
-                <img src="src\assets\Picture17 1.png" alt="" />
+                <img src={img14} alt="" />
                 <p>Softwares</p>
               </div>
               <div className="icon">
-                <img src="src\assets\XMLID_15_.png" alt="" />
+                <img src={img15} alt="" />
                 <p>POS Systems</p>
               </div>
             </div>
