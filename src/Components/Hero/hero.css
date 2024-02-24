@@ -123,3 +123,22 @@ width:25px;
 height: 25px;
 
 }
+
+
+@media only screen and (max-width: 680px) {
+ .hero-section .social-icon{
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+ }
+ .hero-section .hero-inner{
+  flex-direction: column;
+  align-items: center;
+ }
+ .hero-section .hero-inner .left-section{
+  align-self: baseline;
+  /* margin: 0;
+  display: flex;
+  flex-direction: row; */
+ }
+}
