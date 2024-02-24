@@ -2,6 +2,29 @@ import React from "react";
 import "../Hero/hero.css";
 import img1 from "../../assets/Group 10.png";
 import vid1 from "../../assets/Video/Blue Dot Global (1).mp4";
+import img2 from "../../assets/XMLID_15_ (2).png";
+import img3 from "../../assets/producticon.png";
+import img4 from "../../assets/serviceicon.png";
+import img5 from "../../assets/partnersicon.png";
+import img6 from "../../assets/subicon.png";
+import img7 from "../../assets/careericon.png";
+import img8 from "../../assets/abouticon.png";
+
+import img9 from "../../assets/XMLID_15_ (3).png";
+import img10 from "../../assets/XMLID_15_ (7).png";
+import img11 from "../../assets/XMLID_15_ (8).png";
+import img12 from "../../assets/XMLID_15_ (9).png";
+
+
+
+
+
+
+
+
+
+
+
 function Hero() {
 
 
@@ -15,31 +38,31 @@ function Hero() {
           <div className="left-section">
             <ul>
               <li>
-                <img src="src\assets\XMLID_15_ (2).png" alt="" />
+                <img src={img2} alt="" />
                 <p>About</p>
               </li>
               <li>
-                <img src="src\assets\producticon.png" alt="" />
+                <img src={img3} alt="" />
                 <p>Products</p>
               </li>
               <li>
-                <img src="src\assets\serviceicon.png" alt="" />
+                <img src={img4} alt="" />
                 <p>Services</p>
               </li>
               <li>
-                <img src="src\assets\partnersicon.png" alt="" />
+                <img src={img5} alt="" />
                 <p>Partners</p>
               </li>
               <li>
-                <img src="src\assets\subicon.png" alt="" />
+                <img src={img6} alt="" />
                 <p>Subscribe</p>
               </li>
               <li>
-                <img src="src\assets\careericon.png" alt="" />
+                <img src={img7} alt="" />
                 <p>Careers</p>
               </li>
               <li>
-                <img src="src\assets\abouticon.png" alt="" />
+                <img src={img8} alt="" />
                 <p>Contact</p>
               </li>
             </ul>
@@ -61,19 +84,19 @@ function Hero() {
           <p>Connect with us</p>
           <div className="social-icon">
             <div className="social">
-              <img src="src\assets\XMLID_15_ (3).png" alt="" srcset="" />
+              <img src={img9} alt="" srcset="" />
               <p>Instagram</p>
             </div>
             <div className="social">
-              <img src="src\assets\XMLID_15_ (7).png" alt="" srcset="" />
+              <img src={img10} alt="" srcset="" />
               <p>Linkedin</p>
             </div>
             <div className="social">
-              <img src="src\assets\XMLID_15_ (8).png" alt="" srcset="" />
+              <img src={img11} alt="" srcset="" />
               <p>Facebook</p>
             </div>
             <div className="social">
-              <img src="src\assets\XMLID_15_ (9).png" alt="" srcset="" />
+              <img src={img12} alt="" srcset="" />
               <p>Telegram</p>
             </div>
           </div>
