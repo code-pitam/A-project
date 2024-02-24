@@ -1,5 +1,20 @@
 import React from "react";
 import "../Industry/industry.css";
+import img1 from "../../assets/Picture2b 1.png";
+import img2 from "../../assets/Picture20 1.png";
+import img3 from "../../assets/Picture21 1.png";
+import img4 from "../../assets/Picture23 1.png";
+import img5 from "../../assets/Picture24 1.png";
+import img6 from "../../assets/Picture25 1.png";
+import img7 from "../../assets/Picture26 1.png";
+import img8 from "../../assets/Picture27 1.png";
+import img9 from "../../assets/Picture28 1.png";
+import img10 from "../../assets/Picture29 1.png";
+import img11 from "../../assets/Picture30 1.png";
+import img12 from "../../assets/Picture31 1.png";
+
+
+
 
 function Industry() {
   return (
@@ -7,7 +22,7 @@ function Industry() {
       <div className="industry-section container">
         <div className="in-upper">
           <div className="in-upper-left">
-            <img src="src\assets\Picture2b 1.png" alt="" />
+            <img src={img1} alt="" />
           </div>
           <div className="in-upper-right">
             <p className="in-upper-right-big">
@@ -46,47 +61,47 @@ function Industry() {
           </div>
           <div className="in-lower-right">
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture20 1.png" alt="" />
+              <img src={img2} alt="" />
               <p>Utilities</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture21 1.png" alt="" />
+              <img src={img3} alt="" />
               <p>Manufacturing </p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture23 1.png" alt="" />
+              <img src={img4} alt="" />
               <p>Education</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture24 1.png" alt="" />
+              <img src={img5} alt="" />
               <p>Logistics</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture25 1.png" alt="" />
+              <img src={img6} alt="" />
               <p>Hospitality</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture26 1.png" alt="" />
+              <img src={img7} alt="" />
               <p>Engineering</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture27 1.png" alt="" />
+              <img src={img8} alt="" />
               <p>Telecom</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture28 1.png" alt="" />
+              <img src={img9} alt="" />
               <p>Healthcare</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture29 1.png" alt="" />
+              <img src={img10} alt="" />
               <p>Finance</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture30 1.png" alt="" />
+              <img src={img11} alt="" />
               <p>Technology</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture31 1.png" alt="" />
+              <img src={img12} alt="" />
               <p>Real Estate</p>
             </div>
           </div>
