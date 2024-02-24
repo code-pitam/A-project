@@ -15,21 +15,21 @@ function Industry() {
             </p>
             <p className="in-upper-right-small">
               Blue Dot Global is making a strong mark in the distribution of
-              digital and electronic products, technological
-              transformations, and system Integrations which started from
-              the UAE and now expanded to supplying our product ranges in
-              the Middle East, Africa, Asia, and Europe. <br /> <br />
+              digital and electronic products, technological transformations,
+              and system Integrations which started from the UAE and now
+              expanded to supplying our product ranges in the Middle East,
+              Africa, Asia, and Europe. <br /> <br />
               <br />
               We simplify and streamline your technology procurement processes.
               We’ve made buying the tech you need easier than ever. Your
-              ingenuity is what turns imagination into innovation. We
-              give you access to the components you need to breathe life
-              into your vision. <br />
+              ingenuity is what turns imagination into innovation. We give you
+              access to the components you need to breathe life into your
+              vision. <br />
               <br />
               <br />
               We work with you with a deep-level understanding of your business
-              needs, extensive technical knowledge, and highly capable
-              delivery teams.
+              needs, extensive technical knowledge, and highly capable delivery
+              teams.
             </p>
           </div>
         </div>
@@ -39,10 +39,9 @@ function Industry() {
               Industry <br /> expertise
             </p>
             <p className="in-lower-left-small">
-              We are one the leading business and technology 
-              consultancy and implementation experts 
-              building bridges between its clients' business
-              goals and ecological capabilities
+              We are one the leading business and technology consultancy and
+              implementation experts building bridges between its clients'
+              business goals and ecological capabilities
             </p>
           </div>
           <div className="in-lower-right">
@@ -51,44 +50,44 @@ function Industry() {
               <p>Utilities</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture20 1.png" alt="" />
-              <p>Utilities</p>
+              <img src="src\assets\Picture21 1.png" alt="" />
+              <p>Manufacturing </p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture20 1.png" alt="" />
-              <p>Utilities</p>
+              <img src="src\assets\Picture23 1.png" alt="" />
+              <p>Education</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture20 1.png" alt="" />
-              <p>Utilities</p>
+              <img src="src\assets\Picture24 1.png" alt="" />
+              <p>Logistics</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture20 1.png" alt="" />
-              <p>Utilities</p>
+              <img src="src\assets\Picture25 1.png" alt="" />
+              <p>Hospitality</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture20 1.png" alt="" />
-              <p>Utilities</p>
+              <img src="src\assets\Picture26 1.png" alt="" />
+              <p>Engineering</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture20 1.png" alt="" />
-              <p>Utilities</p>
+              <img src="src\assets\Picture27 1.png" alt="" />
+              <p>Telecom</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture20 1.png" alt="" />
-              <p>Utilities</p>
+              <img src="src\assets\Picture28 1.png" alt="" />
+              <p>Healthcare</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture20 1.png" alt="" />
-              <p>Utilities</p>
+              <img src="src\assets\Picture29 1.png" alt="" />
+              <p>Finance</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture20 1.png" alt="" />
-              <p>Utilities</p>
+              <img src="src\assets\Picture30 1.png" alt="" />
+              <p>Technology</p>
             </div>
             <div className="in-lower-right-icon">
-              <img src="src\assets\Picture20 1.png" alt="" />
-              <p>Utilities</p>
+              <img src="src\assets\Picture31 1.png" alt="" />
+              <p>Real Estate</p>
             </div>
           </div>
         </div>

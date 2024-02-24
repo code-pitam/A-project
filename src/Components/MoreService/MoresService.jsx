@@ -1,5 +1,6 @@
 import React from 'react'
 import "../MoreService/moreservice.css"
+import Msdata from './Msdata';
 
 function MoresService() {
   return (
@@ -12,51 +13,16 @@ function MoresService() {
           merchant wholesaler and distributor and a few of them are listed here.
         </p>
         <div className="ms-boxes">
-          <div className="ms-box">
-            <img src="src\assets\Rectangle 19.png" alt="" srcset="" />
-            <p className="ms-box-heading">Wide range supply</p>
-            <p className="ms-box-text">
-              A large variety of products and brands, as per the needs of the
-              clients is integral for us to maintain. Please visit our products
-              page for details
-            </p>
-          </div>
-          <div className="ms-box">
-            <img src="src\assets\Rectangle 19.png" alt="" srcset="" />
-            <p className="ms-box-heading">Wide range supply</p>
-            <p className="ms-box-text">
-              A large variety of products and brands, as per the needs of the
-              clients is integral for us to maintain. Please visit our products
-              page for details
-            </p>
-          </div>
-          <div className="ms-box">
-            <img src="src\assets\Rectangle 19.png" alt="" srcset="" />
-            <p className="ms-box-heading">Wide range supply</p>
-            <p className="ms-box-text">
-              A large variety of products and brands, as per the needs of the
-              clients is integral for us to maintain. Please visit our products
-              page for details
-            </p>
-          </div>
-          <div className="ms-box">
-            <img src="src\assets\Rectangle 19.png" alt="" srcset="" />
-            <p className="ms-box-heading">Wide range supply</p>
-            <p className="ms-box-text">
-              A large variety of products and brands, as per the needs of the
-              clients is integral for us to maintain. Please visit our products
-              page for details
-            </p>
-          </div>
-          <div className="ms-box">
-            <img src="src\assets\Rectangle 19.png" alt="" srcset="" />
-            <p className="ms-box-heading">Wide range supply</p>
-            <p className="ms-box-text">
-              A large variety of products and brands, as per the needs of the
-              clients is integral for us to maintain. Please visit our products
-              page for details
-            </p>
-          </div>
+          {Msdata.map((item, intex) => (
+            <div className="ms-box">
+              <img src={item.urls} alt="" srcset="" />
+              <p className="ms-box-heading">{item.title}</p>
+              {item.description?.map((item, index) => (
+                <p key={index} className="ms-box-text">{item}</p>
+              ))}
+            </div>
+          ))}
+
         </div>
       </div>
     </div>
