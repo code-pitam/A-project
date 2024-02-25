@@ -203,6 +203,10 @@ margin-right: 40px;
     width: fit-content;
 }
 
+.right-inner p{padding-top: 9px;
+    line-height: 18px;
+}
+
 }
 
 
