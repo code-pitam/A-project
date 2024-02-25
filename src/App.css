@@ -43,4 +43,7 @@
 
 .container{
   max-width: 1502.99px !important;
+} 
+#root{
+  background-color: #213547;
 }
