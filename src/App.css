@@ -45,7 +45,8 @@
   max-width: 1502.99px !important;
 } 
 #root{
+  /* padding: 20px; */
   /* background-color: #213547; */
 
-  z-index: -1000; 
+  /* z-index: -1000;  */
 }
