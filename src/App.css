@@ -45,5 +45,7 @@
   max-width: 1502.99px !important;
 } 
 #root{
-  background-color: #213547;
+  /* background-color: #213547; */
+
+  z-index: -1000; 
 }
