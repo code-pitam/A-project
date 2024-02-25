@@ -211,10 +211,17 @@ margin-right: 40px;
 
 
 @media only screen and (max-width: 500px) {
+    .service-main{
+        text-align: center;
+    }
 .left-section{
     flex-direction: column;
 }
 .upper-section{
     flex-direction: column;
+}
+.product{
+    text-align: center;
+    height: fit-content !important;
 }
 }

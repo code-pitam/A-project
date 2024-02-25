@@ -39,5 +39,9 @@
  .partners .partners-icon{
   flex-wrap: wrap;
   width: 90%;
+  justify-content: space-evenly;
  }
+.partners-section{
+  overflow: hidden;
+}
 }
