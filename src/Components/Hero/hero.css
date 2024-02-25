@@ -141,4 +141,12 @@ height: 25px;
   display: flex;
   flex-direction: row; */
  }
+ .right-section{
+  justify-content: center;
+  align-items: center;
+  width: auto;
+ }
+ .hero-section{
+  padding: 30px;
+ }
 }
