@@ -86,6 +86,8 @@
   width: max-content;
 }
 
+
+
 @media only screen and (max-width: 950px) {
   .industry-section .in-upper {
     text-align: center;
@@ -115,4 +117,5 @@
     margin: 0px !important;
     padding: 0;
   }
+
 }

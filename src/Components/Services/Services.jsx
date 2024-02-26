@@ -19,7 +19,7 @@ import img15 from "../../assets/XMLID_15_.png";
 
 function Services() {
   return (
-    <div className="service-main">
+    <div className="service-main" id="services">
       <div className="service-section container">
         <div className="left-section">
           <div className="upper-section">

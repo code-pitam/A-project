@@ -49,4 +49,9 @@
   /* background-color: #213547; */
 
   /* z-index: -1000;  */
+  scroll-behavior: smooth;
+  /* transition: all 1s; */
+}
+*{
+  scroll-behavior: smooth;
 }

@@ -1,5 +1,9 @@
 import React from "react";
 import "../Hero/hero.css";
+import { useState } from "react";
+import { MdOutlineMenu } from "react-icons/md";
+import { IoMdCloseCircle } from "react-icons/io";
+
 import img1 from "../../assets/Group 10.png";
 import vid1 from "../../assets/Video/Blue Dot Global (1).mp4";
 import img2 from "../../assets/XMLID_15_ (2).png";
@@ -15,55 +19,74 @@ import img10 from "../../assets/XMLID_15_ (7).png";
 import img11 from "../../assets/XMLID_15_ (8).png";
 import img12 from "../../assets/XMLID_15_ (9).png";
 
-
-
-
-
-
-
-
-
-
-
 function Hero() {
-
-
+  const [menuActive, setmenuActive] = useState(true);
+  console.log(menuActive);
   return (
-    <div className="hero">
+    <div className="hero" id="home">
       <video src={vid1} autoPlay muted loop className="hero-video"></video>
       <div className="container hero-section">
         <img className="logo" src={img1} alt="" srcset="" />
 
         <div className="hero-inner">
-          <div className="left-section">
+          {menuActive ? (
+            <MdOutlineMenu
+              className="menu-icon"
+              onClick={() => setmenuActive(!menuActive)}
+            />
+          ) : (
+            <IoMdCloseCircle
+              className="menu-icon"
+              onClick={() => setmenuActive(!menuActive)}
+            />
+          )}
+          <div
+            className={`left-section menu-active ${
+              menuActive ? "" : "active-menu"
+            }`}
+          >
             <ul>
               <li>
                 <img src={img2} alt="" />
-                <p>About</p>
+                <a href="#home" >
+                  <p>About</p>
+                </a>
               </li>
               <li>
                 <img src={img3} alt="" />
-                <p>Products</p>
+                <a href="#product" >
+                  <p>Products</p>
+                </a>
               </li>
               <li>
-                <img src={img4} alt="" />
-                <p>Services</p>
+                <img src={img4} alt="" srcset="" />
+                <a  href="#services">
+                  <p>Services</p>
+                </a>
               </li>
               <li>
-                <img src={img5} alt="" />
-                <p>Partners</p>
+                <img src={img5}  />
+                <a href="#partners" >
+                  <p>Partners</p>
+                </a>
               </li>
               <li>
-                <img src={img6} alt="" />
-                <p>Subscribe</p>
+                <img src={img6} />
+                <a href="#subscriber">
+                  <p>Subscribe</p>
+                </a>
               </li>
               <li>
-                <img src={img7} alt="" />
-                <p>Careers</p>
+                <img src={img7}  />
+                <a href="#careers">
+                  <p>Careers</p>
+                </a>
               </li>
               <li>
                 <img src={img8} alt="" />
-                <p>Contact</p>
+                <a href="#contact">
+                  <p>Contact</p>
+                </a>
               </li>
             </ul>
           </div>

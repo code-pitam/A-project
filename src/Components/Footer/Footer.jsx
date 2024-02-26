@@ -4,7 +4,7 @@ import img1 from "../../assets/Picture47 1.png";
 
 function Footer() {
   return (
-    <div className="footer">
+    <div className="footer" id="contact">
       <div className="footer-section">
         <div className="footer-logo">
           <img src="src\assets\Group 11.png" alt="" />
@@ -51,11 +51,7 @@ function Footer() {
             </p>
             <div className="input-email">
               <input type="text" name="" id="" placeholder="Your Email" />
-              <img
-                src={img1}
-                alt=""
-                srcset=""
-              />
+              <img src={img1} alt="" srcset="" />
             </div>
             <p>
               Stay in touch for all the upcoming <br /> products and

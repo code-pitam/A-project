@@ -4,7 +4,7 @@ import img1  from "../../assets/aaa 1 (1).png";
 
 function Careers() {
   return (
-    <div className="careers">
+    <div className="careers" id="careers">
       <div className="careers-section">
         <div className="careers-left">
           <img src={img1} alt="" srcset="" />
