@@ -35,7 +35,8 @@
 }
 .hero-section .left-section {
   /* margin-top: 30px; */
-  transition: left 1s;
+  transition: left 1s ease-out;
+  /* transition: display 1s ease-in; */
   width: 25%;
 }
 .hero-section ul {
@@ -75,25 +76,37 @@
   display: flex;
   align-items: start;
   justify-content: center;
+  transition: all 2s ease-in-out;
+
 }
 .hero-section .right-section p {
   font-size: 24px;
   text-align: center;
 }
 .right-section .quote-sec {
+
   max-width: 576px;
   margin-left: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
+}
+.right-section .quote-sec p{
+  font-size: 24px;
+  font-weight: 400;
+   line-height: 32px;
+  letter-spacing: -1px;
 }
 .right-section .quote-sec button {
-  margin-top: 41px;
+  font-size: 18px;
+  font-weight: 800;
+  margin-top: 10px;
   background-color: none;
   background: transparent;
   border: 2px solid #6bade5;
   border-radius: 8px;
-  padding: 15px;
+  padding: 15px 20px;
   color: #6bade5;
 }
 .hero-lower-section {
@@ -153,13 +166,18 @@
   .hero-inner {
     position: relative;
   }
-  .left-section {
+  .hero-section .left-section {
     /* margin-top: 0 !important; */
-    position: absolute;
-    left: -100%;
+    position: absolute !important;
+    left: -100% !important; 
     /* display: none; */
   }
   .menu-icon {
+    position: absolute;
+    top: -75px;
+    border: 2px solid #6bade5 ;
+    border-radius: 5px;
+    right: 20px;
     font-size: 30px;
     color: #5892c3;
     z-index: 1000;
@@ -167,11 +185,11 @@
   }
 
   .active-menu {
-    margin-top: -90px;
+    margin-top: -90px !important;
     /* width: 100vw !important; */
-    position: inherit;
+    position: inherit !important;
     display: block;
-    left: 0;
+    left: 0 !important;
   }
   .right-section {
     margin-top: 20px !important;

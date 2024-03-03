@@ -25,13 +25,13 @@ function Services() {
           <div className="upper-section">
             <div className="inner-left">
               <p className="big-font">
-                We connect people <br /> with technology that <br /> makes life
+                We connect people with technology that makes life
                 better
               </p>
               <p className="small-font">
                 Discover how we help you achieve your strategic goals. We
                 combine power of people and technology to address your biggest
-                opportunities - from improving client experience <br /> and
+                opportunities - from improving client experience and
                 incresaing effeciency to growing revenue
               </p>
             </div>

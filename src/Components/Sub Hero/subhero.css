@@ -1,4 +1,5 @@
 .subhero{
+  box-sizing: border-box;
     width: 100%;
     min-height: 250px;
     display: flex;
@@ -8,24 +9,30 @@
 
 }
 .subhero-section{
-    padding: 20px;
+
+  box-sizing: border-box;
+margin: 40px 20px;
+    padding: 20px ;
     justify-content: space-around;
     align-items: center;
     display: flex;
-    width: 1501px;
+    max-width: 1501px;
 
 }
 .subhero-section .sub-big{
+  min-width:455px ;
     padding-left: 20px;
     margin-left: 30px;
-    font-size: 37px;
+    font-size: 39px;
     font-weight: 600;
     color:#6BADE5;
+    margin-right: 3rem;
 }
 .subhero-section .sub-small{
+  max-width: 716px;
     font-size: 18px;
-    font-family: 400;
     color: #6BADE5;
+
 }
 
 
@@ -36,4 +43,24 @@
     padding: 10px 50px;
     text-align: center;
   }
+  .subhero-section .sub-small{
+    margin-top: -10px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+.subhero-section{
+  padding: 0;
+  max-width:70 ;
+}
+.sub-small{
+  max-width: 90vw !important;
+}
+.sub-big{
+  font-size: 30px !important;
+  max-width: 70vw !important;
+  /* margin: 10px;
+  padding: 0px; */
+  min-width: 90vw !important;
+}
 }

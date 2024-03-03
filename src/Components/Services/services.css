@@ -29,6 +29,8 @@
   gap: 2%;
 }
 .left-section {
+        position: static !important;
+
   width: 67%;
 }
 .right-section {
@@ -53,13 +55,15 @@
 .right-section .right-ss{
     font-size: 24px;
     font-weight: 600;
-    line-height: 10px;
+    text-align: center;
+    /* line-height: 10px; */
 }
 
 .upper-section{
  display: flex;
  /* background-color: aliceblue; */
- justify-content: space-between;
+ justify-content: space-evenly;
+ margin: 30px;
 }
 .upper-section .inner-left {
     max-width: 520px;
@@ -117,6 +121,7 @@ height: 101px;
 
 
 .lower-section{
+    margin: 20px;
     display: flex;
     flex-direction: column;
     margin-top: 132px;
@@ -129,6 +134,7 @@ height: 101px;
     height: 36px;
     width: 380px;
     display: flex;
+    margin-left: 40px;
     margin-bottom: 54px;
     align-items: center;
 }
@@ -148,10 +154,12 @@ height: 101px;
 }
 
 .lower-section .lower-icon .icon{
-    width: 120px;
+    text-align: center;
+    width: 13%;
+    margin: 3px;
     align-items: center;
     /* padding: 5px; */
-margin-right: 40px;
+/* margin-right: 2.5rem; */
     display: flex;
     flex-direction: column;
     /* background-color: white; */
@@ -159,11 +167,12 @@ margin-right: 40px;
 }
 .lower-section .lower-icon .icon p{
     margin-top: 8px;
+    font-size: 16px;
 
 }
 .lower-section .lower-icon .icon img{
-    width: 64.58px;
-    height: 51.25px;
+    /* width: 64.58px; */
+    height: 51.25px; 
     object-fit:contain;
 
 }
@@ -172,8 +181,8 @@ margin-right: 40px;
  .service-section{
     flex-direction: column;
  }
- .service-section .left-section, .right-section{
-    width: 100%;
+ .left-section, .right-section{
+    width: 100% !important;
  }
  .service-section .lower-section{
     width: 100%;
@@ -186,7 +195,7 @@ margin-right: 40px;
     padding: 0;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 6px;
+    /* gap: 6px; */
 
  }
  .lower-icon{
@@ -223,5 +232,32 @@ margin-right: 40px;
 .product{
     text-align: center;
     height: fit-content !important;
+}
+}
+@media screen and (max-width: 1250px) {
+    .service-section{
+        padding: 30px;
+    }
+.left-section{
+    width: 72%;
+}
+    .right-section{
+        width: 28%;
+        margin-right: 30px;
+    }
+    .upper-section .inner-left{
+        max-width: 500px;
+    }
+    .upper-section .inner-right{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+.service-section{
+    flex-wrap: wrap;
+}
+.lower-icon .icon{
+    min-width: 100px !important;
 }
 }
