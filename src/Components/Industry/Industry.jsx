@@ -34,14 +34,14 @@ function Industry() {
               and system Integrations which started from the UAE and now
               expanded to supplying our product ranges in the Middle East,
               Africa, Asia, and Europe. <br /> <br />
-              <br />
+            
               We simplify and streamline your technology procurement processes.
               We’ve made buying the tech you need easier than ever. Your
               ingenuity is what turns imagination into innovation. We give you
               access to the components you need to breathe life into your
               vision. <br />
               <br />
-              <br />
+            
               We work with you with a deep-level understanding of your business
               needs, extensive technical knowledge, and highly capable delivery
               teams.
