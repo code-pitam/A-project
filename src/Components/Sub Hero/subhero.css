@@ -49,18 +49,28 @@ margin: 40px 20px;
 }
 
 @media only screen and (max-width: 680px) {
+  .subhero-section{
+
+  }
 .subhero-section{
   padding: 0;
-  max-width:70 ;
+width:100% ;
+box-sizing: border-box;
+margin: 0;
+padding:0;
 }
 .sub-small{
-  max-width: 90vw !important;
+  width:100%  !important;
+  /* margin-bottom: 70px; */
+  padding: 0px 30px 70px 30px ;
 }
 .sub-big{
-  font-size: 30px !important;
-  max-width: 70vw !important;
-  /* margin: 10px;
-  padding: 0px; */
-  min-width: 90vw !important;
+  box-sizing: border-box;
+  font-size: 25px !important;
+width: 90% !important;
+margin: 50px; 
+  padding: 0px; 
+  /* min-width: 100% !important; */
+
 }
 }

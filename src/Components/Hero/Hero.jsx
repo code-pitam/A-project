@@ -41,7 +41,7 @@ function Hero() {
             />
           )}
           <div
-            className={`left-section menu-active ${
+            className={`hero-left-section menu-active ${
               menuActive ? "" : "active-menu"
             }`}
           >

@@ -33,7 +33,7 @@
   display: flex;
   width: 100%;
 }
-.hero-section .left-section {
+.hero-section .hero-left-section {
   /* margin-top: 30px; */
   transition: left 1s ease-out;
   /* transition: display 1s ease-in; */
@@ -58,6 +58,7 @@
 
   padding-inline-start: 0;
   padding: 0;
+  margin: 15px 50px;
 }
 .hero-section ul li img {
   margin-right: 15px;
@@ -77,25 +78,22 @@
   align-items: start;
   justify-content: center;
   transition: all 2s ease-in-out;
-
 }
 .hero-section .right-section p {
   font-size: 24px;
   text-align: center;
 }
 .right-section .quote-sec {
-
   max-width: 576px;
   margin-left: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
- 
 }
-.right-section .quote-sec p{
+.right-section .quote-sec p {
   font-size: 24px;
   font-weight: 400;
-   line-height: 32px;
+  line-height: 32px;
   letter-spacing: -1px;
 }
 .right-section .quote-sec button {
@@ -111,15 +109,17 @@
 }
 .hero-lower-section {
   margin-top: 63px;
+  margin-bottom: 63px;
   display: flex;
   flex-direction: column;
   color: #5892c3 !important;
   font-size: 20px !important;
+  gap: 40px;
 }
 .hero-lower-section .social-icon {
   display: flex;
   gap: 32px;
-  margin-top: -20px;
+  margin: 0px 0px 20px  ;
 }
 .hero-lower-section .social {
   display: flex;
@@ -132,8 +132,7 @@
   height: 25px;
 }
 
-.left-section ul li a {
-
+.hero-left-section ul li a {
   cursor: pointer;
 }
 .menu-icon {
@@ -149,7 +148,7 @@
     flex-direction: column;
     align-items: center;
   }
-  .hero-section .hero-inner .left-section {
+  .hero-section .hero-inner .hero-left-section {
     align-self: baseline;
     /* margin: 0;
   display: flex;
@@ -166,16 +165,16 @@
   .hero-inner {
     position: relative;
   }
-  .hero-section .left-section {
+  .hero-left-section {
     /* margin-top: 0 !important; */
     position: absolute !important;
-    left: -100% !important; 
+    left: -100% !important;
     /* display: none; */
   }
   .menu-icon {
     position: absolute;
     top: -75px;
-    border: 2px solid #6bade5 ;
+    border: 2px solid #6bade5;
     border-radius: 5px;
     right: 20px;
     font-size: 30px;
@@ -188,7 +187,7 @@
     margin-top: -90px !important;
     /* width: 100vw !important; */
     position: inherit !important;
-    display: block;
+    display: block !important;
     left: 0 !important;
   }
   .right-section {
