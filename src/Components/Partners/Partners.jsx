@@ -14,7 +14,7 @@ import img6 from "../../assets/Picture40 1.png";
 function Partners() {
   return (
     <div className="partners" id="partners">
-      <div className="partners-section">
+      <div className="partners-section ">
         <p className="partners-heading">Partners</p>
         <div className="partners-icon">
           <img src={img1} alt="" />

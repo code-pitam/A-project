@@ -61,8 +61,9 @@
 .upper-section {
   display: flex;
   /* background-color: aliceblue; */
-  justify-content: space-evenly;
-  margin: 30px;
+  justify-content: space-between;
+  margin: 30px 0px;
+
 }
 .upper-section .inner-left {
   max-width: 520px;
@@ -118,6 +119,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 132px;
+  margin-left: 0;
 }
 .lower-section .product {
   background-color: #6bade5;
@@ -126,9 +128,9 @@
   height: 36px;
   width: 380px;
   display: flex;
-  margin-left: 40px;
   margin-bottom: 54px;
   align-items: center;
+
 }
 .lower-section .product p {
   font-size: 24px;
@@ -259,5 +261,11 @@
   } */
   .big-font {
     margin-bottom: 30px;
+  }
+  .upper-section{
+    justify-content: center;
+  }
+  .left-section{
+    margin-bottom: 60px;
   }
 }

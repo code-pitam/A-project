@@ -12,8 +12,7 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 40px;
-/* background-color: #213547;  */
-
+  /* background-color: #213547;  */
 }
 .partners-section .partners-heading {
   font-size: 37px;
@@ -21,27 +20,26 @@
 }
 .partners-section .partners-icon {
   padding: 30px;
-  margin-bottom: 20px;
+  margin: 60px 30px;
   justify-content: center;
   display: flex;
   background-color: #091637;
   flex-wrap: wrap;
   width: 100%;
-  gap: 2rem;
+  gap: 3rem;
+  width: 100vw;
 }
 .partners-section .partners-icon img {
   object-fit: contain;
 }
 
-
-
-@media only screen and (max-width:1024px) {
- .partners .partners-icon{
-  flex-wrap: wrap;
-  width: 90%;
-  justify-content: space-evenly;
- }
-.partners-section{
-  overflow: hidden;
-}
+@media only screen and (max-width: 1024px) {
+  .partners .partners-icon {
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+  }
+  .partners-section {
+    overflow: hidden;
+  }
 }

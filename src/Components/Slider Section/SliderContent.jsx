@@ -4,7 +4,7 @@ function SliderContent({activeIndex, sliderImage}) {
   return (
     <section>
       {sliderImage?.map((slide, index) => (
-        <div className={index === activeIndex ? "slides active" : "inactive"}>
+        <div className={index === activeIndex ? "slides active container" : "container inactive"}>
           <div className="s-content">
             <div className="slide-left">
               <p className="slide-heading slide-title">{slide.title}</p>

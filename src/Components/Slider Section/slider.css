@@ -126,6 +126,7 @@
     padding-top: 50px;
     max-width: 50%;
     margin-right: 5rem;
+    padding-left: 0;
 
 }
 
@@ -145,4 +146,19 @@
      .s-content .slide-image{
         width: 80%;
      }
+}
+
+
+@media (max-width: 700px){
+     .s-content .slide-left{
+        text-align: center;
+  margin: 20px !important;
+  padding: 0;
+
+ }
+
+ .s-content .slide-left p{
+    text-align: center;
+    margin: 20px auto;
+ }
 }

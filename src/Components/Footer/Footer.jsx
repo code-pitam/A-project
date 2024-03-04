@@ -5,7 +5,7 @@ import img1 from "../../assets/Picture47 1.png";
 function Footer() {
   return (
     <div className="footer" id="contact">
-      <div className="footer-section">
+      <div className="footer-section container">
         <div className="footer-logo">
           <img src="src\assets\Group 11.png" alt="" />
         </div>

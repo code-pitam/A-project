@@ -4,8 +4,8 @@ import Msdata from './Msdata';
 
 function MoresService() {
   return (
-    <div className="moreservice">
-      <div className="moreservice-section">
+    <div className="moreservice"> 
+      <div className="moreservice-section container">
         <p className="ms-heading">Lorem Ipsum is simply dummy text</p>
         <p className="ms-small-heading">
           There are strong reasons that clients choose Blue Dot Global over the

@@ -20,7 +20,7 @@ function Slider(props) {
   //   }, [activeIndex]);
 
   return (
-    <div className="slider-container" id="product">
+    <div className="slider-container " id="product">
       <SliderContent activeIndex={activeIndex} sliderImage={sliderImage} />
       <Arrow
         prevSlide={() =>
