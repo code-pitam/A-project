@@ -75,9 +75,9 @@
 }
 
 @media (max-width: 600px) {
-  .container{
+  /* .container{
     padding: 30px 0px !important;
-  }
+  } */
   .main-footer{
     flex-wrap: wrap;
     justify-content: center !important; 
