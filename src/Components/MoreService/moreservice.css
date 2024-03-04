@@ -58,11 +58,11 @@
     margin-top:10px;
   box-sizing: border-box;
   padding: 5px;
+  margin-bottom: 30px;
 }
 
 .moreservice-section .ms-boxes .ms-box .ms-box-text{
-    margin-top: -10px;
-
+margin-bottom: 5px;
 }
 
 

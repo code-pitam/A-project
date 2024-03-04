@@ -26,7 +26,7 @@ function Industry() {
           </div>
           <div className="in-upper-right">
             <p className="in-upper-right-big">
-              Real outcomes and expert insights <br />A better way to buy IT
+              Real outcomes and expert insights A better way to buy IT
             </p>
             <p className="in-upper-right-small">
               Blue Dot Global is making a strong mark in the distribution of
