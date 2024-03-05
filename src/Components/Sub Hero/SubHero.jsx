@@ -5,7 +5,7 @@ function SubHero() {
   return (
     <div className="subhero">
       <div className="subhero-section container">
-        <p className="sub-big">
+        <p className="sub-big mfont">
           Your go-to partner for all your technology product needs
         </p>
         <p className="sub-small">

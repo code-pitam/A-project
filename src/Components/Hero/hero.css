@@ -100,7 +100,7 @@
 .right-section .quote-sec button {
   font-size: 18px;
   font-weight: 800;
-  margin-top: 10px;
+  margin-top: 42px;
   background-color: none;
   background: transparent;
   border: 2px solid #6bade5;
@@ -199,4 +199,11 @@
     justify-self: baseline;
     align-self: baseline;
   }
+  .right-section{
+    margin-top: 70px !important;
+  }
+  
+
+
+
 }

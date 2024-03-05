@@ -55,6 +55,8 @@
   font-size: 24px;
   font-weight: 600;
   text-align: center;
+  color: #6BADE5;
+  margin-bottom: 20px;
   /* line-height: 10px; */
 }
 
@@ -268,5 +270,8 @@
   }
   .left-section{
     margin-bottom: 60px;
+  }
+  .lower-section .product{
+    align-self: center;
   }
 }

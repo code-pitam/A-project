@@ -12,6 +12,10 @@
 }
 .slider-container section{
     width: 100%;
+    background-color: #091638;
+    display: flex;
+    justify-content: center;
+
 }
 .slider-container .active{
     display: inline-block;
@@ -26,6 +30,7 @@
     width: 100%;
     position: relative;
     background-color: #091638;
+    margin: 0px auto;
 
 }
 .slides .s-content{
