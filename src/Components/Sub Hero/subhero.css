@@ -19,7 +19,7 @@
 
 }
 .subhero-section .sub-big{
-  min-width:455px ;
+  max-width:455px ;
     /* padding-left: 20px; */
     font-size: 39px;
     font-weight: 600;
